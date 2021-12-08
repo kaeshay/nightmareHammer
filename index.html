@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nightmare Hammer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/sub.css">
+	<link rel="stylesheet" type="text/css" href="tools.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<style>
+	body{
+		background-color:#7E788F;
+	}
+	#shelf{
+		position:absolute;
+		left:700px;
+	}
+	.bottles{
+		/*border:2px solid black;*/
+		position:absolute;
+		width:450px;
+		left:900px;
+		top:90px;
+	}
+	.bottles img{
+		margin-bottom:70px;
+	}
+	#potions{
+		position:absolute;
+		width:370px;
+		left:900px;
+		top:450px;
+		/*border:2px solid black;*/
+	}
+	</style>
+</head>
+<body>
+	<img class="draggable room" ondblclick="playSound('hammer')" src="assets/hammer.png">
+	<img id="shelf" class="room" src="assets/bottle-shelf.png">
+	<div class="avatars">
+		<img id="leggy" class="draggable medium-item" src="assets/leggy.png">
+		<img id="leggy" class="draggable medium-item" src="assets/skeleton.png">
+	</div>
+	<audio id="hammer" src="assets/maria/hammer.mp3"></audio>
+	<div id="specsContainer">
+	<p id="specs"></p>
+	<div class="bottles">
+		<a href="pages/dreams/brad.html">
+		<img class="draggable small-item" src="assets/dreams/brad.png"></a>
+		<a href="pages/dreams/chris.html">
+		<img class="draggable small-item" src="assets/dreams/chris.png"></a>
+		<a href="pages/dreams/joshua.html">
+		<img class="draggable small-item" src="assets/dreams/joshua.png"></a>
+		<a href="pages/dreams/julie.html">
+		<img class="draggable small-item" src="assets/dreams/julie.png"></a>
+		<a href="pages/dreams/kaius.html">
+		<img class="draggable small-item" src="assets/dreams/kaius.png"></a>
+		<a href="pages/dreams/kay.html">
+		<img class="draggable small-item" src="assets/dreams/kay.png"></a>
+		<a href="pages/dreams/liby.html">
+		<img class="draggable small-item" src="assets/dreams/liby.png"></a>
+		<a href="pages/dreams/malery.html">
+		<img class="draggable small-item" src="assets/dreams/malery.png"></a>
+		<a href="pages/dreams/maya.html">
+		<img class="draggable small-item" src="assets/dreams/maya.png"></a>
+		<a href="pages/dreams/michelle.html">
+		<img class="draggable small-item" src="assets/dreams/michelle.png"></a>
+		<a href="pages/dreams/taylor.html">
+		<img class="draggable small-item" src="assets/dreams/taylor.png"></a>
+		<a href="pages/dreams/theia.html">
+		<img class="draggable small-item" src="assets/dreams/theia.png"></a>
+		<a href="pages/dreams/joe.html">
+		<img class="draggable small-item" src="assets/dreams/joe.png"></a>
+		<a href="pages/dreams/maria.html">
+		<img class="draggable small-item" src="assets/dreams/maria.png"></a>
+	</div>
+	<div id="potions">
+		<a href="pages/dreams/emile1.html">
+		<img class="draggable small-item" src="assets/dreams/emile1.png"></a>
+		<a href="pages/dreams/emile2.html">
+		<img class="draggable small-item" src="assets/dreams/emile2.png"></a>
+		<a href="pages/dreams/emile3.html">
+		<img class="draggable small-item" src="assets/dreams/emile3.png"></a>
+		<a href="pages/dreams/teddy1.html">
+		<img class="draggable small-item" src="assets/dreams/teddy1.png"></a>
+		<a href="pages/dreams/teddy2.html">
+		<img class="draggable small-item" src="assets/dreams/teddy2.png"></a>
+		<a href="pages/dreams/teddy3.html">
+		<img class="draggable small-item" src="assets/dreams/teddy3.png"></a>
+		<a href="pages/dreams/rui1.html">
+		<img class="draggable small-item" src="assets/dreams/rui1.png"></a>
+		<a href="pages/dreams/rui2.html">
+		<img class="draggable small-item" src="assets/dreams/rui2.png"></a>
+		<a href="pages/dreams/rui3.html">
+		<img class="draggable small-item" src="assets/dreams/rui3.png"></a>
+		<a href="pages/dreams/omari1.html">
+		<img class="draggable small-item" src="assets/dreams/omari1.png"></a>
+		<a href="pages/dreams/omari2.html">
+		<img class="draggable small-item" src="assets/dreams/omari2.png"></a>
+		<a href="pages/dreams/omari3.html">
+		<img class="draggable small-item" src="assets/dreams/omari3.png"></a>
+	</div>
+</body>
+<script type="text/javascript" src="scripts/draggable.js"></script>
+<script type="text/javascript" src="scripts/sub.js"></script>
+<script type="text/javascript" src="scripts/inventory.js"></script>
+</html>

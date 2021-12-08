@@ -1,0 +1,38 @@
+body{
+	background-color:#7E788F;
+}
+#container{
+	position:absolute;
+	top:30px;
+	left:650px;
+	/*border:2px solid black;*/
+	width:650px;
+	height:700px;
+}
+#bottle{
+	position:fixed;
+	top:-50px;
+	left:10px;
+	pointer-events:none;
+}
+.avatar{
+	position:fixed;
+}
+#leggy{
+	left:450px;
+	top:250px;
+}
+#skeleton{
+	left:-100px;
+	top:350px;
+}
+.place{
+	width:200px;
+	margin:5px;
+}
+.people{
+	height:100px;
+}
+.thing{
+	height:70px;
+}
